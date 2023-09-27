@@ -14,7 +14,7 @@ function InicioPage () {
                     <img src="\src\assets\react.svg" alt="Logo React" className="h-4/6 logo react"/>
                 </section>
                 <section className="w-2/3 flex flex-col p-40">
-                    <h1 className="text-5xl text-yellow-300 font-bold mb-2">Biblioteca web de componentes</h1>
+                    <h1 className="text-5xl text-yellow-400 font-bold mb-2">Biblioteca web de componentes</h1>
                     <h2 className="text-4xl font-bold mb-2">Simplifica tu desarrollo en React</h2>
                     <p className="text-2xl opacity-60">
                     Compact posee una amplia y diversa biblioteca de componentes ReactJS 
