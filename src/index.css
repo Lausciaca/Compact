@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    color: white;
+    transition: border-bottom 0.1s ease;
+    border-bottom: 3px solid;
+    border-color: rgb(29, 78, 216);
+    letter-spacing: 0.2rem;
+}
+
+.titulo:hover{
+    border-color: white;
+}
