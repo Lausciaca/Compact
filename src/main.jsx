@@ -5,7 +5,8 @@ import { createBrowserRouter, RouterProvider, } from 'react-router-dom'
 import ErrorPage from './components/error-page.jsx'
 import ComponentsPage from './routes/componentes.jsx'
 import InicioPage from './routes/inicio.jsx'
-import Contact from './routes/contact'
+
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 const router = createBrowserRouter([
