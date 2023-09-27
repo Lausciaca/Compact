@@ -1,5 +1,5 @@
 import React from "react"
-import Nav from '../components/layout/nav'
+import Nav from '../components/common/nav'
 import { Link } from "react-router-dom"
 
 
@@ -29,7 +29,7 @@ function InicioPage () {
                         <Link to={'/componentes'} 
                         className="text-2xl w-2/5 mt-5 py-4 float-right text-center 
                         bg-yellow-300 hover:bg-yellow-400 ">
-                        Ver componentes <i class="bi bi-arrow-right-square-fill"></i>
+                        Ver componentes <i className="bi bi-arrow-right-square-fill"></i>
                         </Link>
                     </div>
                 </section>
