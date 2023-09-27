@@ -1,12 +1,12 @@
 import React from "react";
 
-function Card () {
+function Card ({ categoria, titulo ,link }) {
     return(
-        <div className="border-black w-full sm:w-full md:w-1/2 lg:w-1/3 h-auto p-8 bg-white">
-            <a href="">
-                <p className="opacity-50">Categoria</p>
+        <div className="border-black w-full lg:w-1/2 h-auto p-8 bg-white hover:bg-gray-300">
+            <a href={link} target="_blank">
+                <p className="opacity-50">{categoria}</p>
                 <p className="truncate text-3xl" >
-                    Titulo componente
+                    {titulo}
                 </p>
             </a>
         </div>
